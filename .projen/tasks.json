@@ -88,6 +88,21 @@
         }
       ]
     },
+    "custom": {
+      "name": "custom",
+      "description": "Prepare a custom release",
+      "steps": [
+        {
+          "exec": "rm -fr dist"
+        },
+        {
+          "exec": "lerna version --conventional-commits"
+        },
+        {
+          "exec": "lerna run custom --stream"
+        }
+      ]
+    },
     "default": {
       "name": "default",
       "description": "Synthesize project files",

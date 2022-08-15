@@ -5,6 +5,7 @@
     "bump": "npx projen bump",
     "clobber": "npx projen clobber",
     "compile": "npx projen compile",
+    "custom": "npx projen custom",
     "default": "npx projen default",
     "eject": "npx projen eject",
     "package": "npx projen package",

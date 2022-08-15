@@ -32,4 +32,18 @@ const constructone = new awscdk.AwsCdkConstructLibrary({
 
 parentProject.addSubProject(constructone);
 
+//parentProject.removeTask('release');
+const custom = parentProject.addTask('custom', {
+  name: "custom release",
+  description: "Prepare a custom release",
+});
+
+custom.exec("rm -fr dist");
+custom.exec("lerna version --conventional-commits")
+
+
+// custom.spawn(parentProject.tasks('bump'));
+// custom.spawn("build");
+// custom.spawn("unbump");
+
 parentProject.synth();
