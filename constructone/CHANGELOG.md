@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [](https://github.com/Dazza65/pattern-library/compare/constructone@0.1.0...constructone@) (2022-08-15)
+
+
+### Features
+
+* add dazza ([3b591d7](https://github.com/Dazza65/pattern-library/commit/3b591d77e406220d292844b39a5db2eba2a1d498))
+
+
+
+
+
 #  (2022-08-15)
 
 
