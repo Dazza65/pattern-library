@@ -24,6 +24,9 @@ const constructone = new awscdk.AwsCdkConstructLibrary({
     type: 'npm',
     url: 'https://github.com/Dazza65/pattern-library.git'
   },
+  bundledDeps: [
+                'jsii-docgen@7.0.55'
+              ],
   description: 'constructone description'
 });
 
